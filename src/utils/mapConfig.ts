@@ -2,9 +2,9 @@ import type { RasterDEMSourceSpecification, StyleSpecification } from 'maplibre-
 import type { FeatureCollection, LineString, Point, Polygon } from 'geojson';
 
 export const WEST_AFRICA_CENTER = {
-  lng: 3.3792,
-  lat: 6.5244,
-  zoom: 13
+  lng: 3.396,
+  lat: 6.450,
+  zoom: 13.5
 };
 
 export const BASEMAP_STYLES = {
