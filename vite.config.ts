@@ -4,10 +4,17 @@ import tsconfigPaths from "vite-tsconfig-paths";
 import { traeBadgePlugin } from 'vite-plugin-trae-solo-badge';
 import path from 'path';
 import { viteStaticCopy } from 'vite-plugin-static-copy';
+import tailwindcss from 'tailwindcss';
+import autoprefixer from 'autoprefixer';
 
 // https://vite.dev/config/
 export default defineConfig({
   base: './',
+  css: {
+    postcss: {
+      plugins: [tailwindcss(), autoprefixer()],
+    },
+  },
   build: {
     sourcemap: 'hidden',
   },
