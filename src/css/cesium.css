@@ -1,0 +1,13 @@
+.cesium-viewer,
+.cesium-viewer > canvas {
+  width: 100% !important;
+  height: 100% !important;
+  display: block;
+}
+
+.cesium-viewer-toolbar,
+.cesium-viewer-animationContainer,
+.cesium-viewer-timelineContainer {
+  display: none !important;
+}
+
